@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'git'
 gem 'rails',                '4.2.0'
 gem 'sass-rails',           '5.0.1'
 gem 'uglifier',             '2.5.3'
@@ -9,7 +8,7 @@ gem 'jquery-rails',         '4.0.3'
 gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
-gem 'nokogiri', :git => 'https://github.com/tenderlove/nokogiri.git', :branch => '1.4'
+gem 'activeadmin', :git => 'https://github.com/gregbell/active_admin.git', :branch => 'master'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
